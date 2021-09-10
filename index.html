@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Portifólio</title>
+  </head>
+  <body class="container">
+
+      <header id="header">
+        <h1 class="trebuchet_head">CAROLINE IRENY DE SOUZA FREITAS</h1>
+        <h2 class="trebuchet_subtitle" style="color: rgb(255, 255, 255)">
+          UX/UI Designer - Designer Gráfica - Ilustradora - Front End Dev
+        </h2>
+      </header>
+      <nav id="nav" class="topnav">
+         <a href="#about" class="active fontTahoma12">Sobre mim</a>
+         <a href="#education" class="fontTahoma12">Formação Acadêmica</a>
+         <a href="#certifications" class="fontTahoma12">Certificações</a>
+         <a href="#illustrations" class="fontTahoma12">Ilustrações</a>
+         <a href="#videos" class="fontTahoma12">Vídeos</a>
+         <a href="#contact" class="fontTahoma12">Contato</a>
+         <a href="#footer" class="fontTahoma12">Redes Sociais</a>
+         <!--Research Bar-->
+        <div id="divBusca"><img src="pesquisa.png" alt="Buscar" width="20" height="20"/>
+        <input type="text" id="txtBusca" placeholder="Buscar..."/><button id="btnBusca">Buscar</button></div>
+      </nav>
+
+      <aside id="aside" class="fontTahoma12">
+        <div id = "about" class="about__box" >
+        <img
+          src="myprofilepic.png"
+          alt="minha foto com o cabelo preso com rabo de cavalo"
+          width="100px"
+          height="100px"
+        />
+        <br />
+        <h1 class="trebuchet_subtitle"><b>Sobre mim</b></h1>
+        <hr align="center" color="black" width="50%" />
+        <h4 align="justify">
+          Sou designer gráfica e Ilustradora freelancer (com formação autodidata
+          e através de cursos autônomos). Sou, ainda, técnica em Informática
+          nível médio e tenho fluência em Inglês. No ano de 2021, iniciei o
+          Curso Superior e Tecnológico de Design Gráfico pela UNINTER e estou,
+          também, em paralelo fazendo o Bootcamp de Desenvolvedor Front End pelo
+          IGTI. Essa é minha segunda graduação, fiz meu primeiro Ensino Superior
+          em Bacharelado em Direito. Sou amante da cultura Pop,
+          Pop Japonesa (animes e mangás), Nerd, Geek e Gamer. Amo desenhar
+          (desenho desde 2008, desde desenhos manuais até digitais) e jogar
+          video-games (desde 2015). Tenho, ainda, um grande fascínio por
+          modelagem 3D e como projeto pessoal estou buscando me aperfeiçoar em
+          esculturas digitais. Enfim, é muita estória para contar em caracteres.
+          Se quiser saber mais sobre minha vida e carreira, venha ser meu/minha
+          amigo(a). Gosto de fazer novas amizades e trocar experiências. Será um
+          prazer conhecer você.
+        </h4>
+        </div>
+        <br>
+        <div id="contact" class="contact__box">
+          <!--Fomulario de Contato-->
+        <h1 class="trebuchet_subtitle">Contate-me </h1>
+        <hr align="center" color="black" width="50%" />
+        <br>
+        <form id="contact_form" action="#" class="stylebox__align" method="POST" enctype="multipart/form-data">
+          <div class="row fontTahoma12">
+            <label class="required" for="name"><b>&nbsp;&nbsp;&nbsp;Nome Completo:</b></label><br />
+            <input id="name" class="input stylebox" name="name" type="text" value="Nome e sobrenome" /><br />
+            <span id="name_validation" class="error_message"></span>
+          </div>
+          <br>
+          <div class="row fontTahoma12">
+            <label class="required" for="email"><b>&nbsp;&nbsp;&nbsp;Email:</b></label><br />
+            <input id="email" class="input stylebox" name="email" type = "email" value="xxxxx@xxmail.com"/><br />
+            <span id="email_validation" class="error_message"></span>
+          </div>
+          <br>
+          <div class="row fontTahoma12">
+            <label class="required"  for="message"><b>&nbsp;&nbsp;&nbsp;Mensagem:</b></label><br />
+            <textarea id="message" class="input stylebox__textarea" type = "text" value=""  name="message" rows="7">Digite sua mensagem para mim e te responderei o mais breve possível.</textarea><br />
+            <span id="message_validation" class="error_message"></span>
+          </div>
+            <center><input id="submit_button"  type="submit" value="Enviar" /></center>
+        </form>
+        <br>
+       </div>
+      </aside>
+      <section id="section1" class="fontTahoma12">
+        <div id="education" class="section1__boxes">
+        <ul>
+          <h1 class="trebuchet_subtitle">Formação Acadêmica</h1>   
+          <hr align="center" color="black" width="30%" />       
+          <br>        
+          <b>2008-2012</b><a href="https://ibb.co/smzDJ8c" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a>
+          <hr align="left" color="black" width="50%">
+          <blockquote>
+            <li>
+          Curso de Inglês-Americano nível Fluente pelo CCAA (Centro de Cultura Anglo Americana);</blockquote>
+            </li>
+          </blockquote>
+          <br>
+          <b>2009-2013</b> <a href="https://ibb.co/8BLQKDq" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a>
+          <hr align="left" color="black" width="50%">
+          <blockquote>
+            <li>
+              Técnica em Informática nível médio pelo IFBA Campus Porto Seguro;
+            </li>
+          </blockquote>
+          <br>
+          <b>2011-2012</b>
+          <hr align="left" color="black" width="50%">
+          <blockquote>
+            <li>
+              Estágio na área de montagem e manutenção dos computadores do
+              laboratório de informática do Colégio Dr. Antonio Ricaldi;
+            </li>
+          </blockquote>
+          <br>
+           <b>2015-2017</b>
+           <hr align="left" color="black" width="50%">
+          <blockquote> <li>
+            Estágio remunerado na 1º Vara Cível da Comarca de Porto Seguro-BA;</blockquote>
+            <br>
+          </li>
+          <b>2013-2018</b><a href="https://ibb.co/5kRm2QJ" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a>
+          <hr align="left" color="black" width="50%">
+          <blockquote>
+            <li>
+              Bacharelado em Direito pela UNESULBAHIA e advogada OAB/BA 57257;</blockquote>
+            </li>
+          </blockquote>
+          <br>
+          <b>2018-2019</b><a href="https://ibb.co/J2vjY3W" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a>
+          <hr align="left" color="black" width="50%">
+          <blockquote> <li>
+            Especialização em Direito Civil e Processo Civil pela Estácio;
+          </li></blockquote>
+          <br>
+          <b>2018-2019</b><a href="https://ibb.co/ckJxfnn" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a>
+          <hr align="left" color="black" width="50%">
+          <blockquote><li>Especialização em Direito do Consumidor pela Estácio;</li></blockquote>
+          <br>
+          <b>2021 – Até o momento</b>
+          <hr align="left" color="black" width="50%">
+          <blockquote><li>Curso Superior de Tecnologia em Design Gráfico pela UNINTER;</li></blockquote>
+          <br>
+          <b>2021 – Até o momento</b>
+          <hr align="left" color="black" width="50%">
+          <blockquote> <li>
+            Bootcamp de Desenvolvimento Front End pela IGTI (Instituto de Gestão e Tecnologia da Informação);
+          </li></blockquote>
+          <br>
+          </ul>
+          </div>
+          <br>
+          <div id ="certifications" class="section1__boxes">
+            <ul>
+          <h1 class="trebuchet_subtitle">Certificações</h1>
+          <hr align="center" color="black" width="30%" />     
+<BR></BR>
+<li><h3><b>Basics of Flat Design Illutration In Canva - <p>UDEMY - 23 de jul. de 2021<a href="https://ibb.co/ncF4yjm" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado por Phillip Dillow, com duração de 1.5 horas (Certificado n. UC-eb067d76-1e40-4a36-978f-79e8e2766fac);</li>
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b>Basics of Stop Motion Animation Using Canva and Openshot – <p>UDEMY -  23 de jul. de 2021 <a href="https://ibb.co/MCKKYvg" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado por Phillip Dillow, com duração de 1h. (Certificado n. UC-c282078a-17a0-47a9-b754-8765c2106043);
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b>Complete Wordpress Website Developer Course – <p>UDEMY - 21 de jul. de 2021<a href="https://ibb.co/B6TwRx5" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado por Shubham Saurav, com duração de 3.5 horas. (Certificado n. UC-1dceb901-7abc-491c-9d2d-82a322a39aaa)
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> UX & Design Thinking: Experiência do usuário nos negócios
+-<p> UDEMY - 17 de jun. de 2021 <a href="https://ibb.co/HTMfMq3" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado Leandro Rezende, 11.5h, (Certificado nº UC-5f907cd4-c613-4 e39-9dc4- a6663b50b6ce);
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> Photoshop 2020 e 2021 - Design Gráfico e Redes Sociais- <p>UDEMY - 8 de jun. de 2021 <a href="https://ibb.co/xgBsCsT" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a> </b></h3></li>
+Curso ministrado por Caroll Bulcão, Paulo Andrade (P.h.D) e Photoshop Total, 29h, 08/06/21,(Certificado nº UC-3c8Bb1d90-ffec-4249-95e6-69d14cd6bc1d);
+<BR></BR>
+<hr align="left" color="black" width="50%">  
+<li><h3><b> Curso Blender 2.8 | Aprenda 3D do Zero!-
+  <p>UDEMY - 5 de jun. de 2021  <a href="https://ibb.co/WP3cp1g" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado pelo Professor Daniel Franco, 44,5h, (certificado nº UC -16e6fbf6-db68-47de-9ef5-f79f9721ec4b);
+<BR></BR>
+<hr align="left" color="black" width="50%">   
+<li><h3><b> Introdução ao Adobe Animate – <p> DOMESTIKA -3 de jun. de 2021  <a href="https://ibb.co/xs7ck5Y" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado pelo Animador 2D, Josep Bernaus, 8h36m (ID: 2c4d552432675a9357237b381e6fa24e);
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> Criação de Mockups 3D Editáveis para Design e Publicidade – <p> UDEMY -1 de jun. de 2021<a href="https://ibb.co/VqqGphd" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li> 
+Curso ministrado pelo professor Danilo Castagine, 6,5h, (Certificado nºUC-59a620be-0a11-4e56-87da-e226959b61d8),
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> Adobe InDesign CC 2020: Do Básico ao Avançado - <p> UDEMY - 30 de mai. de 2021<a href="https://ibb.co/5Ff8yks" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado pelo professor Willian, 8h, (Certificado nº UC-e26bf80b-62b5-4ba3-82ea-ac08977afd08);
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> Adobe Photoshop para ilustração – <p>DOMESTIKA - 29 de mai. de 2021<a href="https://ibb.co/MGmtsMB" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado pela ilustradora Gemma Román (ilustradora), 7 h 56 m, (Certificado ID: a2fb809082cfa606a758e2ef621605ed);
+<BR></BR>
+  <li><h3><b> ADOBE PREMIERE CC DO BÁSICO AO AVANÇADO – <p> UDEMY - 29 de mai. de 2021<a href="https://ibb.co/0mXTyd6" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado pelo professor Willian, 8h (certificado nº UC-6d6d64ea-3be6-41ee-87aa-9239c402a0a4)
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> Adobe Illustrator 2021- Do Zero Aos Recursos Mais Avançados – <p>UDEMY - 28 de mai. de 2021 <a href="https://ibb.co/G5th7T6" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado por Caroll Bulcão e Paulo Andrade (P.h.D), 16h (Certificado nº UC-bce33e09-dbf9-4fb4-80cc-ec5ba0a6f538);
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> After Effects CC para Motion Designers: Do zero ao avançado – <p> UDEMY - 27 de mai. de 2021<a href="https://ibb.co/xJX7Lfs" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado por Marcelo Schatzmann, 38h, 27/05/21, (Certificado nºUC -0143c6e3-b779-42d2-8534-7e7cdo7512ce);
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> WEBINAR - Disrupções tecnológicas e informacionais - desafios, convergências e oportunidades em mídias digitais 09.03 – <p>UNINTER -22 de mai. de 2021<a href="https://ibb.co/ccK5Zfw" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado por CLOVIS TEIXEIRA FILHO, 3h, (Certificado n.º 1416746);
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> Curso gratuito de Marketing Digital - <p> DIGITAL HOUSE - CODING SCHOOL - 21 de mai. de 2021<a href="https://ibb.co/JQ2c9YG" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado por Edney Souza, 5h;
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> WEBINAR - STORYTELLING - BASES CRIATIVAS UNIVERSAIS 11.05 – <p>UNINTER - 21 de mai. de 2021<a href="https://ibb.co/dBkjLTh" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado por EDNA GAMBÔA CHIMENES, 3h, (Certificado nº 1416729);
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> CURSO DE EXTENSÃO ENTRE LETRAS E HISTÓRIAS / NETIQUETA / A COMUNICAÇÃO NA WEB 13.05 – <p> UNINTER - 18 de mai. de 2021<a href="https://ibb.co/g7QKwQs" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado por DEISILY DE QUADROS, 5h (Certificado nº1416739);
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> WEBINAR / REALIDADE VIRTUAL E AUMENTADA / O QUE É E ONDE USAR 29.04 – <p> UNINTER - 17 de mai. de 2021 <a href="https://ibb.co/j8Qp7Lx" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado por GISELLE LUZIA DZIURA, 3h, (Certificado nº1416721);
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> Adobe Indesign - Noções Básicas – <p> UNINTER - 11 de mai. de 2021<a href="https://ibb.co/wCzYJyV" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado por GUILHERME GONCALVES DE CARVALHO, 30h, (certificado nº 1406639);
+<BR></BR>
+<hr align="left" color="black" width="50%">
+<li><h3><b> Adobe Illustrator - Noções Básicas – <p> UNINTER - 10 de mai. de 2021<a href="https://ibb.co/7yyjr3Q" target="_blank"><img src="certlogo.png"  alt="botão de logo de certificado" width="20" height="20" /></a></b></h3></li>
+Curso ministrado por MATIAS SEBASTIAO PERUYERA, 30h (certificado nº 1406635);
+</ul>
+<br>
+</div>
+     </section>
+      <section id= "section2" class="section2">
+        <div id="illustrations" class="section2__boxes">
+        <h1 class="trebuchet_subtitle">Ilustrações</h1>   
+        <hr align="center" color="black" width="15%" />
+        <br>
+       <span>
+              <span class="zoom spacebetween"><img class="gallery__img" id="image-1" src="mao_zombie.png" alt="desenho de mão de zombie"></span>
+              <span class="zoom spacebetween"> <img class="gallery__img" id="image-2" src="mao_zombie2.png" alt=""></span>
+              <span class="zoom spacebetween"><img class="gallery__img" id="image-3" src="princesas_disney.jpg" alt=""></span>
+              <span class="zoom spacebetween"> <img class="gallery__img" id="image-4" src="suculentas.png" alt=""></span>
+              <span class="zoom spacebetween"> <img class="gallery__img" id="image-5" src="comidinhas.jpg" alt=""></span>
+              <span class="zoom spacebetween"> <img class="gallery__img" id="image-6" src="desenho_nordico.jpg" alt=""></span>
+       </span>
+      </div>
+      <br>
+      <div  id="videos" class="section2__boxes">
+      <h1 class="trebuchet_subtitle">Vídeos</h1>   
+        <hr align="center" color="black" width="15%" />
+        <br>
+       <span>
+              <span class="spacebetween video__border"><iframe width="400" height="300" src="https://www.youtube.com/embed/QPDcYrboRNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+              <span class="spacebetween video__border"><iframe width="400" height="300" src="https://www.youtube.com/embed/10XQ3vDR-3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+      </span>
+    </div>
+    </section>
+    <a href="#" class="btn"></a>
+    <a href="https://api.whatsapp.com/send?phone=5573988731529&text=Ol%C3%A1%2C%20Tudo%20bem%3F" class ="btn2" target="_blank"><img src="whatslogo.png"  alt="botão do whatsapp" width="40" height="40" /></a>
+    <footer id="footer">
+      <div class= "footer__box" style="margin-left: 120px;">
+        <a class="alignContent__Footer" href="https://www.instagram.com/carolinefreitas.design/" target="_blank"><img src="instalogo.png"  alt="botão de link para o instagram" width="40" height="40" /></a>
+        <a class="alignContent__Footer" href="https://www.linkedin.com/in/caroline-freitas-732646210/" target="_blank"><img src="linkedinlogo.png"  alt="botão de link para o Linkedin" width="40" height="40" /></a>
+        <a class="alignContent__Footer" href="https://carolineisfreitas.myportfolio.com" target="_blank"><img src="linklogo.png"  alt="botão de link para o meu Portifólio" width="40" height="40" /></a>
+        <a class="alignContent__Footer" href="https://github.com/carolinefreitas29" target="_blank"><img src="githublogo.png"  alt="botão de link para o GitHub" width="40" height="40" /></a>
+        <table>
+            <tr>
+              <th><img src="emaillogo.png" alt="email" width="25" height="25"></th>
+              <th><h5 class="trebuchet_subtitle" style="color: black; font-size: small; margin-left: 5px;">carolineisouzafreitas@gmail.com</h5></th>
+            </tr>
+            </table>
+        </div> 
+        <div style="margin-top: -30px;"><h5 class="trebuchet_subtitle" style="color: black; font-size: small; margin-left: 5px;"><b>Caroline Freitas 2021 &copy; Todos os direitos reservados</b></h5>
+        </div>
+   
+    </footer>
+</body>
+</html>
